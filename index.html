@@ -282,7 +282,6 @@
   $('#go_top_page').css({ display: 'none' });
   $(window).on('scroll', function () {
      nowloc = $(window).scrollTop();
-     console.log(nowloc)
      if (nowloc > 800) {
         $('#go_top_page').fadeIn(1000);
         $('#go_top_page').css({ 'animation-iteration-count': 2 });
@@ -290,14 +289,14 @@
         $('#go_top_page').fadeOut(1000);
         $('#go_top_page').css({ 'animation-iteration-count': 'none' });
      }
-
-     if (nowloc <= 300) {
+    //  navbar 背景
+     if (nowloc <= 400) {
         $('#navbar').css({
            background: 'transparent'
         });
      } else {
         $('#navbar').css({
-           background: 'var(--coffee1)'
+           background: 'rgba(246, 162, 136, 0.2)'
         });
      }
   });
