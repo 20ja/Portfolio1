@@ -361,11 +361,14 @@ color: var(--orange);
   
 #portfolio img {
     transition: all 0.8s ease-in-out;
+    height: 151.33px;
   }
 #portfolio img:hover {
     transform: scale(1.1);
   }
-
+#portfolio p {
+  min-height: 48px;
+}
 
   #portfolio .card {
     overflow: hidden;
