@@ -104,6 +104,18 @@ img{
     animation: bounce;
     animation-duration: 1s;
 }
+@media (max-width:576px){
+  .pic::before{
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 200px;
+    height: 400px;
+    background: var(--blue);
+  
+  }
+}
 
 @media (max-width:767px){
   #home h1{
@@ -146,6 +158,19 @@ img{
 
 }
 }
+@media (min-width:768px) and (max-width: 1023px) {
+  .pic::before{
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 300px;
+    height: 400px;
+    background: var(--blue);
+  
+  }
+}
+
 /* ------------about-------------- */
 #about{
     height: 100vh;
@@ -166,6 +191,7 @@ img{
 #about h3{
     color: var(--blue);
     font-weight: 400;
+    text-align: center;
 }
 
 #about .card {
@@ -220,6 +246,12 @@ img{
     z-index: -1;
 }
 
+@media (max-width:576px){
+  #about{
+    margin-top: 80%;
+}
+}
+
 @media (max-width:767px){
   #about{
     margin-top: 300px;
@@ -244,12 +276,20 @@ img{
 
 }
 
-@media (min-width:768px) and (max-width: 1000px) {
+@media (min-width:768px) and (max-width: 1023px) {
+#about{
+    padding-top: 0;
+}
   #about .col{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
+}
+@media (min-width:1024px){
+  #about{
+    margin-top: 0%;
+}
 }
 /* ------------skill-------------- */
 
@@ -291,16 +331,36 @@ content: '・';
 color: var(--orange);
 }
 
+@media (max-width:576px){
+  #skill{
+    margin-top: 90%;
+}
+
+#skill li{
+  text-align: center;
+  }
+
+}
+
 @media (max-width:767px){
   #skill{
-    margin-top: 500px;
+    margin-top: 150%;
 }
 }
-@media (min-width:768px) and (max-width: 1000px) {
+
+@media (min-width:768px) and (max-width: 1023px) {
   #skill{
-    margin-top: 300px;
+    margin-top: 20%;
 }
 }
+@media (min-width:1024px){
+  #skill{
+    padding-top: 0;
+    margin-top: 0;
+}
+}
+
+
 /* ------------resume-------------- */
 #resume{
     height: 100vh;
@@ -465,9 +525,10 @@ color: var(--orange);
       position: fixed;
       /* 改善抖動問題 */
       -webkit-transform: translateZ(0);
-      right: 20px;
+      right: 3%;
       bottom: 5px;
   }
+ 
 
   /* -------------footer------------------ */
   #footer {
@@ -475,9 +536,10 @@ color: var(--orange);
     color: #fff;
     font-size: 12pt;
     text-align: center;
-    width: 100%;
+    width: 108%;
     height: 20%;
     position: relative;
+    left: 0;
     bottom: 0;
     padding-top: 3%;
   }
@@ -502,7 +564,7 @@ color: var(--orange);
   @media (min-width:768px) and (max-width: 1023px) {
     #footer {
       position: relative;
-      bottom: -1100px;
+      bottom: -30%;
     }
   }
 
@@ -511,6 +573,5 @@ color: var(--orange);
       position: relative;
       bottom: -200px;
     }
-
   }
 
