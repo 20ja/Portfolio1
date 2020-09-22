@@ -39,7 +39,6 @@ border: none;
 
 .navbar-light .navbar-nav .nav-link{
     color: var(--dblue);
-    font-family: Helvetica;
     font-weight: bold;
 }
 
@@ -70,7 +69,6 @@ img{
 #home h1{
     color: var(--dblue);
     font-family: Impact;
-    font-weight: bold;
     font-size: 56pt;
     padding-top: 40%;
 }
@@ -216,7 +214,7 @@ margin-bottom: 5%;
 }
 @media (min-width:1024px){
   #home{
-    margin-top: 20%;
+    margin-top: 10%;
   }
   .pic::before{
     content: '';
@@ -242,7 +240,6 @@ margin-bottom: 5%;
 #about h1{
     color: var(--dblue);
     font-family: Impact;
-    font-weight: bold;
     font-size: 56pt;
 }
 
@@ -416,7 +413,6 @@ margin-bottom: 5%;
 #skill h1{
     color: var(--dblue);
     font-family: Impact;
-    font-weight: bold;
     font-size: 56pt;
     text-align: center;
 }
@@ -487,14 +483,13 @@ color: var(--orange);
 #resume h1{
     color: var(--dblue);
     font-family: Impact;
-    font-weight: bold;
     font-size: 56pt;
     text-align: center;
 }
 
 #resume .resume-title {
     font-size: 22pt;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
     color: var(--blue);
@@ -709,7 +704,7 @@ color: var(--orange);
   @media (min-width:1024px){
     #footer {
       position: relative;
-      bottom: 0%;
+      bottom: -18%;
     }
   }
 
