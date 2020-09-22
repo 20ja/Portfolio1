@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Noto Sans TC';
     }
+    @font-face {
+      font-family: Impact;
+      src: url(./font/Impact.ttf);
+    }
 
 html{
     scroll-behavior: smooth;
