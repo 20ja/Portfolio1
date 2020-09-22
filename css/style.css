@@ -507,6 +507,10 @@ color: var(--orange);
   }
 
   @media (min-width:1024px){
+    #footer {
+      position: relative;
+      bottom: -200px;
+    }
 
   }
 
