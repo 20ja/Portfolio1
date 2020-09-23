@@ -116,9 +116,9 @@ img{
   .pic::before{
     content: '';
     position: absolute;
-    top: 25%;
-    left: 50%;
-    width: 200px;
+    top: 30%;
+    left: 38%;
+    width: 240px;
     height: 400px;
     background: var(--blue);
   
@@ -302,7 +302,7 @@ margin-bottom: 5%;
 }
 @media (min-width:320px) and (max-width: 479px) {
   #about{
-    margin-top: 80%;
+    margin-top: 180%;
 }
 #about .c2{
   position: absolute;
@@ -313,24 +313,21 @@ margin-bottom: 5%;
   border-radius: 50%;
   background: var(--orange);
   z-index: -1;
+}
+#about .card {
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(-180deg);
+  transition: transform .5s;
+  float: left;
+  margin: 15px;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
 }
 }
 
-@media (max-width:480px) and (max-width:766px){
-  #about{
-    margin-top: 80%;
-}
-#about .c2{
-  position: absolute;
-  top: 60%;
-  right: 5%;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: var(--orange);
-  z-index: -1;
-}
-}
 
 @media (min-width:480px) and (max-width: 767px){
   #about{
@@ -363,7 +360,6 @@ margin-bottom: 5%;
   background: var(--orange);
   z-index: -1;
 }
-
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
@@ -445,7 +441,7 @@ color: var(--orange);
 @media (min-width:320px) and (max-width: 479px) {
 
   #skill{
-    margin-top: 100%;
+    margin-top: 200%;
 }
 
 #skill li{
@@ -618,7 +614,7 @@ color: var(--orange);
   }
   @media (min-width:320px) and (max-width: 479px) {
     #portfolio{
-      margin-top: 180%;
+      margin-top: 220%;
     }
     #portfolio .col-md-6{
       display: flex;
@@ -684,7 +680,7 @@ color: var(--orange);
   @media (min-width:320px) and (max-width: 479px) {
     #footer {
       position: relative;
-      bottom: -160%;
+      bottom: -240%;
     }
   }
   @media (min-width:480px) and (max-width: 767px) {
