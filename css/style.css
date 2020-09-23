@@ -118,7 +118,7 @@ img{
     position: absolute;
     top: 30%;
     left: 38%;
-    width: 240px;
+    width: 206px;
     height: 400px;
     background: var(--blue);
   
@@ -458,7 +458,7 @@ color: var(--orange);
 
 @media (min-width:768px) and (max-width: 1023px) {
   #skill{
-    margin-top: 20%;
+    margin-top: 60%;
 }
 }
 @media (min-width:1024px){
@@ -635,7 +635,7 @@ color: var(--orange);
 
   @media (min-width:768px) and (max-width: 1023px) {
     #portfolio{
-      margin-top: 400px;
+      margin-top: 80%;
     }
   }
   /* ----------go_top_page------------ */
@@ -680,7 +680,7 @@ color: var(--orange);
   @media (min-width:320px) and (max-width: 479px) {
     #footer {
       position: relative;
-      bottom: -240%;
+      bottom: -250%;
     }
   }
   @media (min-width:480px) and (max-width: 767px) {
@@ -693,14 +693,14 @@ color: var(--orange);
   @media (min-width:768px) and (max-width: 1023px) {
     #footer {
       position: relative;
-      bottom: -30%;
+      bottom: -80%;
     }
   }
 
   @media (min-width:1024px){
     #footer {
       position: relative;
-      bottom: -18%;
+      bottom: -30%;
     }
   }
 
