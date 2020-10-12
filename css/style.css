@@ -382,7 +382,7 @@ margin-bottom: 5%;
     z-index: -1;
 }
 }
-@media (min-width:1024px){
+@media (min-width:1024px) and (max-width: 1200px) {
   #about{
     margin-top: 0%;
     padding-top: 0%;
@@ -638,6 +638,12 @@ color: var(--orange);
       margin-top: 80%;
     }
   }
+
+  @media (min-width:1024px) and (max-width: 1200px){
+    #portfolio{
+      margin-top: 80%;
+    }
+  }
   /* ----------go_top_page------------ */
   #go_top_page img {
       animation: shakeY;
@@ -697,10 +703,17 @@ color: var(--orange);
     }
   }
 
-  @media (min-width:1024px){
+  @media (min-width:1024px) and (max-width: 1200px){
     #footer {
       position: relative;
-      bottom: -30%;
+      bottom: -50%;
     }
   }
 
+  @media (min-width:1201px){
+    #footer {
+      padding-top: 1%;
+      position: relative;
+      bottom: -60%;
+    }
+  }
