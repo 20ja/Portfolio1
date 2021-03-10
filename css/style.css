@@ -399,6 +399,11 @@ margin-bottom: 5%;
   z-index: -1;
 }
 }
+@media (min-width:1201px){
+  #about{
+    margin-top: 10%;
+  }
+}
 /* ------------skill-------------- */
 
 #skill{
@@ -528,7 +533,12 @@ color: var(--orange);
     #resume{
       margin-top: 500px;
     }
+}
+@media (min-width:1201px){
+  #resume{
+    margin-top: 5%;
   }
+}
 
   /* ---------portfolio--------- */
 
@@ -567,6 +577,7 @@ color: var(--orange);
   }
 #portfolio p {
   min-height: 48px;
+  max-height: 218px;
 }
 
   #portfolio .card {
@@ -635,15 +646,22 @@ color: var(--orange);
 
   @media (min-width:768px) and (max-width: 1023px) {
     #portfolio{
-      margin-top: 80%;
+      margin-top: 100%;
     }
   }
 
   @media (min-width:1024px) and (max-width: 1200px){
     #portfolio{
-      margin-top: 80%;
+      margin-top: 100%;
     }
   }
+
+
+  @media (min-width:1201px){
+    #portfolio{
+      margin-top: 30%;
+    }
+    }
   /* ----------go_top_page------------ */
   #go_top_page img {
       animation: shakeY;
@@ -664,11 +682,11 @@ color: var(--orange);
     font-size: 12pt;
     text-align: center;
     width: 100%;
-    height: 20%;
+    height: auto;
     position: relative;
     left: 0;
     bottom: 0;
-    padding-top: 3%;
+    padding: 1.5%;
   }
   #footer .container {
     position: relative;
@@ -692,7 +710,7 @@ color: var(--orange);
   @media (min-width:480px) and (max-width: 767px) {
     #footer {
       position: relative;
-      bottom: -240%;
+      bottom: -200%;
     }
   }
 
@@ -714,6 +732,6 @@ color: var(--orange);
     #footer {
       padding-top: 1%;
       position: relative;
-      bottom: -60%;
+      bottom: -120%;
     }
   }
